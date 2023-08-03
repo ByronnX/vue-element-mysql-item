@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
-    <router-view></router-view>
+  <div>
+    <h1>404！！！！！！！！！！！！！！</h1>
   </div>
 </template>
 <script>
 export default {
-  name: "App",
+  name: "",
   data() {
     return {};
   },
@@ -14,12 +14,5 @@ export default {
   mounted() {},
 };
 </script>
-<style>
-html,
-body,
-#app {
-  height: 100%;
-  background: red;
-  margin: 0;
-}
+<style lang="less" scoped>
 </style>
